@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .body{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="body"> 
+    <h1>
+        json task
+    </h1>
+    <script>
+        let headers=["id","name","email"];
+//(already created headers we want to put inside the tr)
+let headerstr=document.createElement("tr");
+//th codes
+headers.forEach((item)=>{
+    const thelement=document.createElement("th");
+    thelement.setAttribute("scope","col");
+    thelement.innerText=item;
+    headerstr.append(thelement);
+});
+let theadelement=document.createElement("thead");
+theadelement.append(headerstr);
+
+
+
+const students=[{"name":"M.arunkumar","email":"arun112@gmail.com","id":"11"},{"name":"Reginald Glover","email":"Odie26@yahoo.com","id":"12"},{"name":"Dr. Sheldon","email":"Guiseppe.Krajcik@gmail.com","id":"13"},{"name":"ajithkumar","email":"ajithkumar@gmail.com","id":"14"},{"name":"Emmett Metz","email":"Bobbie_Hermiston20@hotmail.com","id":"15"},{"name":"Mr. Alfred Tillman","email":"Skylar.Ratke60@hotmail.com","id":"16"},{"name":"Ollie Schowalter","email":"Myrtis33@hotmail.com","id":"17"},{"name":"Joanna Borer","email":"Aliyah.Monahan64@hotmail.com","id":"18"},{"name":"Guadalupe Leannon","email":"Brian.Brown@yahoo.com","id":"19"}];
+
+const tbodyelement=document.createElement("tbody");
+
+//for method
+for (let i=0;i<students.length;i++){
+    let th2=document.createElement("th");
+    th2.setAttribute("scope","row");
+    th2.innerText=students[i].id
+    
+    let td1=document.createElement("td");
+    td1.innerText=students[i].name;
+    
+    let td2=document.createElement("td");
+    td2.innerText=students[i].email;
+    
+
+    const tr2forbody=document.createElement("tr");
+    tr2forbody.append(th2,td1,td2);
+    tbodyelement.append(tr2forbody);
+}
+
+// for in method
+for (const property in students){
+    let th2=document.createElement("th");
+    th2.setAttribute("scope","row");
+    th2.innerText=1+students[property].id;
+    
+    let td1=document.createElement("td");
+    td1.innerText=students[property].name;
+    
+    let td2=document.createElement("td");
+    td2.innerText=students[property].email;
+    
+
+    const tr2forbody=document.createElement("tr");
+    tr2forbody.append(th2,td1,td2);
+    tbodyelement.append(tr2forbody);
+}
+
+//for of method
+
+for (const value of students){
+    let th2=document.createElement("th");
+    th2.setAttribute("scope","row");
+    th2.innerText=2+value.id;
+    
+    let td1=document.createElement("td");
+    td1.innerText=value.name;
+    
+    let td2=document.createElement("td");
+    td2.innerText=value.email;
+    
+
+    const tr2forbody=document.createElement("tr");
+    tr2forbody.append(th2,td1,td2);
+    tbodyelement.append(tr2forbody);
+}
+//for each method
+students.forEach((value)=>{
+    let th2=document.createElement("th");
+    th2.setAttribute("scope","row");
+    th2.innerText=3+value.id;
+    
+    let td1=document.createElement("td");
+    td1.innerText=value.name;
+    
+    let td2=document.createElement("td");
+    td2.innerText=value.email;
+    
+
+    const tr2forbody=document.createElement("tr");
+    tr2forbody.append(th2,td1,td2);
+    tbodyelement.append(tr2forbody);
+})
+let telement=document.createElement("table");
+telement.setAttribute("class","table");
+telement.append(theadelement,tbodyelement);
+document.body.append(telement);
+    </script>
+   
+</body>
+</html>

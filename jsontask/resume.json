@@ -1,0 +1,70 @@
+{
+	"basics": {
+		"name": "ravindran",
+		"experience": 3,
+		"nationality": "indian",
+		"email": "ttgghh@gmail.com",
+		"mobile": "67895643"
+	},
+	"career_summary": "PLC Control panels Medium voltage and low voltage switchgear Relay control panels Transformers panels Group starter panels Assembly Erection Control Wiring ,troubleshooting testing, modification attend the FAT, Plant maintenance of electrical equipmentTechnician at",
+
+	"careerhistory": [{
+			"organisation": "teraski switchgears pvt ltd",
+			"designation": "quality control and quality assurance",
+			"period": "2019-2022"
+		},
+		{
+			"organisation": "shastha pvt ltd",
+			"designation": "site supervisoe",
+			"period": "2017-2019"
+		}
+	],
+	"skills_highlight": [
+		" Dimension and layout of back panels and enclosures",
+		"Mounting of components to back panels and enclosures",
+		" Routing and bundling of wire and cables neatly to meet wiring standards",
+		" Point to point wiring of relays, controls, PLCs, I/O Modules, VFDs,  Interfaces, & Instrumentation",
+		"Troubleshooting electrical control panel",
+		"Understanding the electrical schematic diagram.",
+		" Troubleshoot panels as needed to eliminate wiring errors and component malfunctions",
+		" The ability to meet deadlines under pressure ",
+		" A high standard of quality and attention to detail.",
+		" Perform other duties as assigned or as needed."
+	],
+	"qualification": [{
+			"collegename": "xxx yyy zzzz college",
+			"department": "Bachelor of Engineering in Electrical and Electronics",
+			"year": 2017,
+			"place": "hhhhhuuuuuggggg",
+			"cgpa": 7.7
+		},
+		{
+			"schoolname": "xxx yyy zzzz school",
+			"department": "higher secondary school",
+			"year": 2013,
+			"place": "hhhhhuuuuuggggg",
+			"cgpa": "77%"
+		},
+		{
+			"collegename": "xxx yyy zzzz school",
+			"department": "sSLC",
+			"year": 2011,
+			"place": "hhhhhuuuuuggggg",
+			"cgpa": "91%"
+		}
+	],
+	"personal_details": {
+		"name": "xxxx",
+		"label": "uuuuu",
+		"email": "rrrrrrrr@mail.com",
+		"phone": "908765433",
+		"degree": "bachelor of Engineering",
+		"summary": "yfygedw whbdhwbdhd hwdhwuhdwdwq jhydedeheud uhwduhudhewudhwqud hqwdyedwqdpqwiq uqwhuwqwidjwqijwqbjndwqkjwquhdwjd",
+		"location": {
+			"address": "gdwdhwbwhdw dyshjshdsu jhduhsd",
+			"postalCode": "8906538",
+			"city": "tgbgxshbxshb",
+			"countryCode": "india"
+		}
+	}
+}
